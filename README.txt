@@ -1,1 +1,1 @@
-This is master branch of MyJavaDS 
+This is master branch of MyJavaDS
