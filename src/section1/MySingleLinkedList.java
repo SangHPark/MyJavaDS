@@ -15,7 +15,9 @@ public class MySingleLinkedList <T> {
 		Node <T> newNode = new Node<T>(item);  // T: type parameter, OK
 //		Node <T> [] arr = new Node<T> [100]];  // not OK
 		
-		
+		newNode.next = head;
+		head = newNode;
+		size ++;
 	}
 	
 	public void add(int index, T item) { //insert
